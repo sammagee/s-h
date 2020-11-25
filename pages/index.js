@@ -1,65 +1,17 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>S + H</title>
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
+      <main className="w-full min-h-screen flex items-center justify-center">
+        <svg className="w-64 text-black" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 838 703">
+          <path fillRule="evenodd" clipRule="evenodd" d="M726.877 5.576c-49.149 22.322-96.286 199.208-88.271 331.257l2.146 35.372-21.555 6.213c-28.144 8.114-54.832 14.16-56.129 12.718-2.901-3.229-8.165-171.994-8.141-261.02.027-101.61.016-101.791-6.999-106.708-35.854-25.112-41.498 17.536-32.72 247.247l5.288 138.305-7.276 4.537c-78.707 49.098-108.439 158.786-65.946 243.298 45.343 90.184 102.321-2.62 113.3-184.537l2.285-37.878 36.36-8.671c50.587-12.062 45.702-14.686 49.789 26.725 17.642 178.625 25.926 232.117 37.66 243.124L694.6 703l7.639-8.873c8.715-10.117 10.509-49.038 4.553-98.625-25.902-215.578-24.333-196.505-16.374-199.035 56.935-18.069 119.837-96.756 139.827-174.91 29.839-116.679-32.98-247.942-103.368-215.98zm-630.04 8.24C39.456 29.883.025 77.645.117 130.978c.082 51.86 25 84.939 126.425 167.828 100.752 82.339 150.359 144.305 164.753 205.796 16.563 70.759-31.823 129.931-103.633 126.734-32.657-1.455-43.846-9.541-77.463-56.006-31.51-43.553-29.08-41.178-34.502-33.759-7.394 10.109-5.695 39.193 3.348 57.341 68.732 137.93 276.476 66.776 254.577-87.196-11.394-80.118-63.459-149.083-191.272-253.36C34.089 170.033 15.482 126.761 65.216 78.976c40.419-38.838 82.276-38.376 119.248 1.312 21.042 22.59 28.08 24.799 40.233 12.643 11.734-11.73 10.054-17.394-13.35-45.063-27.025-31.949-73.091-45.647-114.51-34.052zm664.839 37.27c68.775 73.019 31.7 242.005-64.594 294.415l-15.145 8.244-2.205-20.615c-8.537-79.711 26.941-249.847 59.511-285.396 8.576-9.363 10.762-9.035 22.433 3.351zM339.958 211.352c-3.925 3.924-6.324 10.54-6.324 17.437v11.117l-17.389-.727c-25.219-1.059-36.613 13.544-23.539 30.167 5.711 7.26 8.951 8.402 23.847 8.402 15.5 0 17.544.802 20.259 7.944 6.6 17.358 30.645 16.342 36.316-1.538 1.636-5.149 4.75-6.406 15.9-6.406 25.096 0 37.142-10.841 31.569-28.408-2.652-8.351-13.548-12.695-31.838-12.695-12.635 0-14.022-.739-14.022-7.477 0-19.362-21.974-30.621-34.779-17.816zm178.202 275.86c-6.604 121.512-29.467 194.05-50.872 161.386-19.852-30.298 2.798-132.148 38.699-174.033 14.623-17.058 13.833-17.876 12.173 12.647z" />
+        </svg>
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
     </div>
   )
 }

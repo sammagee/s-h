@@ -13,7 +13,7 @@ export default function Home() {
       <main className="flex flex-col items-center justify-center w-full min-h-screen">
         <div className="relative flex justify-center">
           <div className="overflow-hidden rounded-full shadow-2xl group">
-            <svg className="transition duration-200 ease-in-out transform w-72 group-hover:scale-125" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 398">
+            <svg className="transition duration-200 ease-in-out transform rounded-full w-72 group-hover:scale-125" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 398">
               <g clipPath="url(#clip0)">
                 <path className="text-black" fill="currentColor" d="M0 0h400v397.077H0z" />
                 <path className="text-red-600" fill="currentColor" d="M174.5 195l1-8.5 20-.5v10l-9 9.5-12-10.5z" />

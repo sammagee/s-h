@@ -14,7 +14,7 @@ export default class MyDocument extends Document {
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         </Head>
-        <body className="min-h-screen bg-black">
+        <body className="min-h-screen bg-gray-300">
           <Main />
           <NextScript />
         </body>
